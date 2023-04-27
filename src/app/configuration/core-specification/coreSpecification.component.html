@@ -1,0 +1,115 @@
+<div class="div4">
+  <h2 class="lead mt-3">Core Specification Details</h2>
+  <div class="m-2">
+  <button type="button" class="btn btn-dark m-2" routerLink="/selectionPreview">Selection preview</button>
+  <button type="button" class="btn btn-dark m-2" href="#">Standard Feature</button>
+  <button type="button" class="btn btn-dark m-2" href="#">CO2</button>
+
+  <div >
+    <div class="form-floating m-2">
+      <select   [(ngModel)]="modelYear" 
+      name="modelYear" style="width:30%" class="form-select" id="floatingSelect" aria-label="Floating label select example">
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+      </select>
+      <label>Select Model Year</label>
+    </div>
+
+    <div class="form-floating m-2">
+        <select
+          [(ngModel)]="modelName"
+          name="modelName"
+          style="width:30%" class="form-select" id="floatingSelect" aria-label="Floating label select example"
+        >
+          <option></option>
+          <option value="audi a4">Audi A4</option>
+          <option value="audi a6">Audi A6</option>
+          <option value="audi a8">Audi A8</option>
+          <option value="audi q5">Audi Q5</option>
+          <option value="BMW Z4(G29)">BMW Z4 (G29)</option>
+          <option value="BMW-3-Series(G20/G21)">BMW 3 Series (G20/G21)</option>
+          <option value="BMW-1-Series-(F40)">BMW 1 Series (F40)</option>
+          <option value="BMW-X6-(G06)">BMW X6 (G06)</option>
+          <option value="Mercedes-Benz-ML">Mercedes-Benz ML</option>
+          <option value="Mercedes-Benz-GL">Mercedes-Benz GL</option>
+          <option value="Mercedes-Benz-GLK">Mercedes-Benz GLK</option>
+          <option value="Mercedes-Benz-ML">Mercedes-Benz ML</option>
+        </select>
+        <label>Model Name</label>
+      </div>
+
+        <div class="form-floating m-2">
+          <select
+            class="modelYearDropDown"
+            [(ngModel)]="engineType"
+            name="engineType"
+            style="width:30%" class="form-select" id="floatingSelect" aria-label="Floating label select example"
+          >
+            <option value="V Engine">V Engine</option>
+            <option value="Twin Cylinders">Twin Cylinders</option>
+            <option value="Four Cylinders">Four Cylinders</option>
+            <option value="Inline Engine">Inline Engine</option>
+            <option value="Flat Engine">Flat Engine</option>
+          </select>
+          <label>Engine Type</label>
+        </div>
+
+        <div class="form-floating m-2">
+          <select
+            class="modelYearDropDown"
+            [(ngModel)]="salesVersion"
+            name="salesVersion"
+            style="width:30%" class="form-select" id="floatingSelect" aria-label="Floating label select example"
+          >
+            <option value="inscreption-11">Inscreption(11)</option>
+            <option value="momentum-12">Momentum(12)</option>
+            <option value="momentum-pro-13">Momentum Pro(13)</option>
+          </select>
+          <label>Sales Version</label>
+        </div>
+
+        <div class="form-floating m-2">
+          <select
+            class="modelYearDropDown"
+            [(ngModel)]="transmission"
+            name="transmission"
+            style="width:30%" class="form-select" id="floatingSelect" aria-label="Floating label select example"
+          >
+            <option value="Multitronic CVT">Multitronic CVT</option>
+            <option value="S-Tronic Dual Clutch">S-Tronic Dual Clutch</option>
+          </select>
+          <label>Transmission</label>
+        </div>
+
+        <div class="form-floating m-2">
+          <select
+            class="modelYearDropDown"
+            [(ngModel)]="streeingDetails"
+            name="streeingDetails"
+            style="width:30%" class="form-select" id="floatingSelect" aria-label="Floating label select example"
+          >
+            <option value="LH-Drive">LH Drive</option>
+            <option value="V-police">V-police</option>
+          </select>
+          <label>Streeing Info</label>
+        </div>
+
+        <div class="form-floating m-2">
+          <select
+            class="modelYearDropDown"
+            [(ngModel)]="marketingCode"
+            name="marketingCode"
+            style="width:30%" class="form-select" id="floatingSelect" aria-label="Floating label select example"
+          >
+            <option value="nordic">Nordic</option>
+          </select>
+          <label>Market Code</label>
+        </div>
+
+        <button class="btn btn-dark m-3">Proceed</button>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,26 @@
+<div class="displayData">
+  <h3>Selected Preview Details</h3>
+  <div *ngFor="let metaData of selectionPreviewData">
+    <p>
+      Model Year: <span>{{ metaData.modelYear }}</span>
+    </p>
+    <p>
+      Model Name: <span>{{ metaData.modelName }}</span>
+    </p>
+    <p>
+      Model Engine Type:<span>{{ metaData.engineType }}</span>
+    </p>
+    <p>
+      Model Sales Version:<span>{{ metaData.salesVersion }}</span>
+    </p>
+    <p>
+      Model Transmission:<span>{{ metaData.transmission }}</span>
+    </p>
+    <p>
+      Model StreeingInfo:<span>{{ metaData.streeingDetails }}</span>
+    </p>
+    <p>
+      Model Marketing Code:<span>{{ metaData.marketingCode }}</span>
+    </p>
+  </div>
+</div>

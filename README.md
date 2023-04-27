@@ -2,7 +2,7 @@
 
 Preview:
 
-![image](https://user-images.githubusercontent.com/15225177/234834728-8e818234-0669-47c0-8971-e5481e7f58d3.png)
+![image](https://user-images.githubusercontent.com/15225177/234834844-979a2b68-5c3b-4cdc-b2e2-45b3aee85b94.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 

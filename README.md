@@ -1,5 +1,9 @@
 # OrderCreationApp
 
+Preview:
+
+![image](https://user-images.githubusercontent.com/15225177/234834100-333ff7f2-4920-4b62-b306-8cce405aa3c4.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
